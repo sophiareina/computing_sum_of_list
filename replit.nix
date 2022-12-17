@@ -1,5 +1,7 @@
 { pkgs }: {
   deps = [
+    pkgs.nano
+    pkgs.python39Packages.pytest_6_1
     pkgs.python38Full
   ];
   env = {
